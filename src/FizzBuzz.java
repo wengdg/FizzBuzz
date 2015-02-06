@@ -6,16 +6,16 @@ public class FizzBuzz {
 
     for(int i = 1; i <= 100; i++){
       if(i%3 == 0 && i%5 == 0){
-        System.out.printf("%d is FizzBuzz!\n", i);
+        System.out.printf("%FizzBuzz!\n", i);
       }
       else if(i%3 == 0){
-        System.out.printf("%d is Fizz!\n", i);
+        System.out.printf("Fizz!\n", i);
       }
       else if(i%5 == 0){
-        System.out.printf("%d is Buzz!\n", i);
+        System.out.printf("Buzz!\n", i);
       }
       else{
-        System.out.printf("%d is nothing :(\n", i);
+        System.out.printf("%d\n", Integer.toString(i));
       }
     }
   }
